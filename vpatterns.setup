@@ -1,0 +1,7 @@
+(compile -s -O3 -d1 vpatterns.ss -j vpatterns)
+(compile -s vpatterns.import.scm -O3 -d0)
+
+(install-extension
+  'vpatterns
+  '("vpatterns.so" "vpatterns.import.so")
+  '((version "1.0")))

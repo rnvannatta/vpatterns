@@ -1,0 +1,5 @@
+((license "BSD")
+ (category macros)
+ (needs vmaybe)
+ (author "Richard Van Natta")
+ (synopsis "An ultra-heavyweight pattern matching library with syntax at least as powerful as R7RS's."))
